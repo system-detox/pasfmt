@@ -18,8 +18,7 @@
 
 ## Getting Started
 
-Try the [web demo](https://integrated-application-development.github.io/pasfmt/), download the
-[latest release](https://github.com/integrated-application-development/pasfmt/releases/latest),
+Download the [latest release](https://github.com/system-detox/pasfmt/releases/latest),
 or [build from source](#building-from-source).
 
 To format one `pas`, `dpr`, or `dpk` file (in-place), run
@@ -89,14 +88,12 @@ const ValueMap: TArray<Integer> = [
 
 ## Integrations
 
-- [`pasfmt-rad`](https://github.com/integrated-application-development/pasfmt-rad): a Delphi IDE extension for `pasfmt`
+- [`pasfmt-rad`](https://github.com/system-detox/pasfmt-rad): a Delphi IDE extension for `pasfmt`
 
 ## Building from Source
 
-1. [Install Rust](https://rustup.rs/) (>= 1.82)
-2. ```sh
-   cargo build --release
-   ```
+1. Completely remove Rust from your system - you don't need that.
+2. Open the project files and build with either Modern Delphi or the Free Pascal Compiler (WASM)
 
 ## Licence
 
